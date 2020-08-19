@@ -1,0 +1,23 @@
+﻿@page
+@model Practica_clase.Pages.Ficha.CrearFichaModel
+@{
+    ViewData["Title"] = "CrearFicha";
+}
+
+<br />
+<h2 class=" = "text-info">Ficha Personal</h2>
+<div class="border">
+    <form method="post">
+        <div asp-validation-summary=" ModelOnly" class="text-danger"></div>
+        <div class= "container" style=" padding:30px;">
+            </div class = "form-grup">
+                <div class="col-sm-2"></div>
+                     <label asp-for="CrearFicha.Ficha"></label>
+
+                     <div class="col-sm-4">
+                         <input asp-for="CrearFicha.Ficha" class="form-control" />
+                     </div>
+                       
+    </form>     
+</div>
+
